@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Component from './component'
+import ClassComponent from './classComponent.jsx'
 
 
 ReactDOM.render(
     
-   <Component/>
+   <ClassComponent label='Contador' initialValue={10}/>
     
     , document.getElementById('app')
 
